@@ -1,0 +1,127 @@
+html,
+body {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bg-dark {
+  background-color: #01194a !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(245, 248, 252);
+  font-family: ibm-plex-sans, sans-serif;
+}
+
+.maxWidth {
+  max-width: 1666px;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
+.homeLogo {
+  padding-top: 125px;
+}
+
+.homeLogo img {
+  padding-bottom: 25px;
+  width: 200px;
+}
+
+.homeLogo h1 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #042161;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  font-size: 111px;
+}
+
+.homeLogo h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #131003;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  font-size: 61px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-left: 4px;
+}
+
+.homeLogo p {
+  font-family: ibm-plex-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.featuredHomeImg {
+  height: 100%;
+  width: auto;
+  background-image: url(../images/ha-leslie-team-belfast.png);
+  opacity: 0.5;
+  margin-right: -15px; // Remove right gap
+  margin-left: -15px; // Remove left gap
+  padding-bottom: 62.5%; // ratio is 16:10
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeFeaturedText p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 1em;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  max-width: 85%;
+  text-align: left;
+  color: black;
+}
+
+.homeFeaturedText a {
+  font-size: 50px;
+  padding: 10px 35px;
+  margin: 0px 35px 0px 0px;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.policiesFeaturedText p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 85%;
+  text-align: left;
+  color: black;
+}
+
+.shortNav {
+  height: 100vh;
+}
+
+.shortNav a {
+  margin-top: 0.5em;
+}
+
+.text-muted {
+  color: #ab972a !important;
+}
+
+div#policies {
+  padding-top: 100px !important;
+}

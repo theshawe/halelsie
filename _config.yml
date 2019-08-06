@@ -1,0 +1,13 @@
+# Site settings
+title: HA Leslie & Co | Independed Insurance Broker, Northern Ireland
+shortTitle: HA Leslie & Co
+email: info@haleslie.com
+phone: 028 9032 3855
+author:
+description: Professional Insurance Broker, members of chartered Insurance Institute, all our advisors are CII Certificate qualified and above.
+url:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
