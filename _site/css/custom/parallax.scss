@@ -22,14 +22,12 @@
   font-size: 50px;
   letter-spacing: 1px;
   text-align: center;
-  color: #101010e3;
+  color: #052261;
   font-weight: 800;
-  text-transform: uppercase;
   z-index: 10;
   opacity: 1;
   line-height: 1em;
   padding-bottom: 1.5em;
-  font-style: italic;
 }
 #parallax h3 {
   text-align: center;
@@ -112,7 +110,7 @@
 /* Section - Parallax */
 /**************************/
 #about {
-  padding-top: 5%;
+  padding-top: 0%;
 }
 
 #experience {
@@ -140,7 +138,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #2d353e6e;
+    background-color: #ebf5ff6e;
     opacity: 1;
   }
 }
@@ -164,16 +162,6 @@
   background-repeat: no-repeat;
   background-position: center center;
 
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #0d2c4e54;
-    opacity: 1;
-  }
 }
 
 #parallax .parallax-two h2 {

@@ -74,48 +74,54 @@
 
 <!-- Page Content -->
 
-<div id="home" class="container-fluid px-5">
+<div id="home" class="container-fluid pl-5">
   <div class="row">
     <div class="col homeFeaturedText">
       <div class="homeLogo">
-  <img src="/images/logo-mark.png" class="img-fluid featuredHomeLogo" alt="" />
-  <h1>HA Leslie & Co</h1>
-  <h2>Insurance</h2>
+  <img class="animated fadeIn" src="/images/logo-mark.png" class="img-fluid featuredHomeLogo" alt="" />
+  <h1 class="animated fadeIn delay-1s">HA Leslie & Co</h1>
+  <h2 class="animated fadeIn delay-2s">Insurance</h2>
 </div>
 
 
-      <p>
+      <p class="animated slideInRight">
         HA Leslie & Co are an Independent Insurance Broker based in
         Belfast, Northern Ireland.
       </p>
     </div>
 
     <div class="col">
-      <div class="featuredHomeImg"></div>
+      <div class="featuredHomeImg animated fadeInUpBig delay-1s"></div>
     </div>
   </div>
 </div>
 
-<div id="parallax">
+<div class="animated fadeInUp delay-1s" id="parallax">
 
 
   <section id="about">
     <div class="parallax-one">
-        <h2>About Us</h2>
+        <h2 class="animated fadeInDown delay-2s">About Us</h2>
 
-      <h3> Working within an ever evolving marketplace, we aim to be there for you
-          no mater what.</h3>
+      <h3 class="animated fadeInDown delay-2"> Working within an ever evolving marketplace, we aim to be there for you
+          no mater what.
 
-<h4><i class="fas fa-chevron-down"></i></h4>
+<br>
+
+<a href="#haleslie"><i class="fas fa-chevron-down"></i></a>
+
+        </h3>
+
+
     </div>
   </section>
 
 
-  <div class="container-fluid about p-5">
+  <div id="haleslie" class="container-fluid about p-5">
     <div class="card-deck">
 
-      <div class="card">
-          <div class="hovereffect">
+      <div class="card p-5">
+          <div class="hovereffect p-5">
         <img src="../images/about-ha-leslie-01.jpg" class="card-img-top" alt="Rolex Clock" />
         <div class="overlay">
             <h2>No Matter When</h2>
@@ -137,8 +143,8 @@
           </p>
         </div>
       </div>
-      <div class="card">
-          <div class="hovereffect">
+      <div class="card p-5">
+          <div class="hovereffect p-5">
         <img src="../images/about-ha-leslie-02.jpg" class="card-img-top" alt="Belfast Clock" />
         <div class="overlay">
             <h2>Personal Service</h2>
@@ -168,8 +174,8 @@
 
     <div class="container-fluid p-5">
       <div class="card-deck">
-        <div class="card">
-          <div class="hovereffect">
+        <div class="card p-5">
+          <div class="hovereffect p-5">
           <img src="../images/about-ha-leslie-03.jpg" class="card-img-top" alt="Botanic Gardens" />
           <div class="overlay">
             <h2>Independent &amp; Local</h2>
@@ -192,8 +198,8 @@
           </div>
         </div>
 
-        <div class="card">
-            <div class="hovereffect">
+        <div class="card p-5">
+            <div class="hovereffect p-5">
             <img src="../images/about-ha-leslie-04.jpg" class="card-img-top" alt="Botanic Gardens" />
             <div class="overlay">
               <h2>Our History</h2>
@@ -223,7 +229,8 @@
       </div>
     </div>
 </div>
- <div id="policies" class="container-fluid p-5">
+
+<div id="policies" class="container-fluid p-5">
   <div class="row">
     <div class="col">
       <div class="featuredHomeImg"></div>
@@ -260,11 +267,12 @@
     </div>
   </div>
 </div>
- <div id="parallax">
+ 
+<div id="parallax">
 
 
-  <section id="experience">
-    <div class="parallax-two">
+  <section>
+    <div  id="experience" class="parallax-two">
         <h2>Our experience</h2>
 
       <h3>All our advisors hold Professional Insurance qualifications. We are all members of the Chartered Insurance Institute and are CII Certificate qualified and above.</h3>
@@ -361,7 +369,8 @@
 
     </div>
 </div>
- <div class="container">
+ 
+<div class="container">
   <!-- START THE FEATURETTES -->
 
   <h1>Our aim is to provide your business with:</h1>
@@ -374,7 +383,7 @@
         <span class="text-muted">Competitive Insurance Premiums</span>
       </h2>
       <p class="lead">
-        Throught our extensive knowledge of the market, we strive to get you
+        Through our extensive knowledge of the market, we strive to get you
         value for money on your insurance.
       </p>
     </div>
@@ -402,8 +411,8 @@
         And lastly, <span class="text-muted">A Personal Service.</span>
       </h2>
       <p class="lead">
-        We understand that every business is unique, taht is why we are always
-        here when you need assistance or advice bcause we work togther with our
+        We understand that every business is unique, that is why we are always
+        here when you need assistance or advice because we work together with our
         customers.
       </p>
     </div>
@@ -419,6 +428,52 @@
   <hr class="featurette-divider" />
 
   <!-- /END THE FEATURETTES -->
+</div>
+
+
+<div class="container">
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-left pl-2">Contact us</legend>
+    
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
 </div>
 
 
@@ -440,9 +495,9 @@
     crossorigin="anonymous"
   ></script>
 
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+   <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
 </html>
