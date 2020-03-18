@@ -67,7 +67,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  height: 80px;
   background: #ffeb3b08;
 }
 
@@ -254,9 +253,38 @@
     padding-bottom: 100px;
   }
 }
-@media screen and (max-width: 479px) {
+
+@media screen and (max-width: 600px) {
+
+div#home {
+}
+
+.homeLogo h1 {
+  font-size: 42px;
+}
+
+.homeLogo h2 {
+  font-size: 32px;
+  padding: 0;
+}
+
+.homeFeaturedText p {
+    font-size: 22px;
+    padding-top: 22px;
+    width: 100%;
+}
+
+#parallax h3 {
+    font-size: 43px;
+    line-height: 1.4em;
+}
+
   #parallax .block {
     padding: 30px 15px;
     width: 290px;
   }
+
+  .card.p-5 {
+    padding: 0 !important;
+}
 }
